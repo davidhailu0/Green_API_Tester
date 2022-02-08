@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/request">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/request"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        android:id="@+id/parameter"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:background="@color/grey"
+        android:layout_below="@+id/parameter"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        >
+    </LinearLayout>
+</RelativeLayout>

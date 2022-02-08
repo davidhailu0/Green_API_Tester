@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">API Tester</string>
+    <string name="url">Enter the URL</string>
+    <string name="send">Send</string>
+    <string name="button">Button</string>
+    <string name="request">Add Parameter</string>
+    <string name="response">Response</string>
+    <string name="key">Key</string>
+    <string name="value">Value</string>
+</resources>
